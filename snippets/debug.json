@@ -14,5 +14,9 @@
     "PuDB set trace": {
         "prefix": "pudb",
         "body": "import pudb; pudb.set_trace()$0"
+    },
+    "IPShell set trace": {
+        "prefix": "ipsh",
+        "body": "from IPython import embed;embed(colors='Linux')$0"
     }
 }
